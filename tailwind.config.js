@@ -8,7 +8,12 @@ module.exports = {
     './nuxt.config.{js,ts}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      backgroundImage: {
+        // eslint-disable-next-line quote-props
+        'pipeImage': "url('assets/image/people.jpg')"
+      }
+    }
   },
   plugins: []
 }
